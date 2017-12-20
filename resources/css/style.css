@@ -1,0 +1,73 @@
+/* styling for the entire page */
+body{
+  color: 2d3c49;
+}
+
+/*styling for the header*/
+h1{
+  font-size: 50px;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2{
+  color: #7d97ad;
+  font-size: 30px;
+}
+
+.header{
+  max-width: 100%;
+  height: 8rem;
+  border-bottom: 5px solid #7d97ad;
+  display: flex;
+  justify-content: space-between;
+
+}
+.header img{
+  height: 5rem;
+  width: 5rem;
+}
+
+.title{
+  text-align: right;
+  align-items: flex-end;
+  max-height: 7rem;
+  flex-shrink: 1;
+}
+
+/* styling for the big image */
+.big-image{
+  padding-top: 2rem;
+}
+.main-image{
+  max-width: 100%;
+}
+
+/* styling for the main body */
+.works img{
+  height: 314px;
+}
+
+.featured{
+    padding: 2rem;
+}
+
+.featured h2{
+  padding-bottom: 2rem;
+}
+
+.works{
+  text-align: center;
+}
+
+h4{
+  font-size: 2.5rem;
+}
+
+a{
+  color: #7d97ad;
+  text-decoration: none;
+}
