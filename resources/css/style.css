@@ -1,6 +1,6 @@
 /* styling for the entire page */
-body{
-  color: 2d3c49;
+body {
+  color: #2d3c49;
 }
 
 /*styling for the header*/
@@ -18,7 +18,7 @@ h2{
   font-size: 30px;
 }
 
-.header{
+.main_title{
   max-width: 100%;
   height: 8rem;
   border-bottom: 5px solid #7d97ad;
@@ -48,14 +48,15 @@ h2{
 
 /* styling for the main body */
 .works img{
-  height: 314px;
+  height: 60%;
+  width:60%;
 }
 
 .featured{
     padding: 2rem;
 }
 
-.featured h2{
+.featured-heading{
   padding-bottom: 2rem;
 }
 
@@ -67,7 +68,59 @@ h4{
   font-size: 2.5rem;
 }
 
+
 a{
   color: #7d97ad;
   text-decoration: none;
+}
+
+/*footer styling*/
+li{
+  display: inline;
+}
+
+
+@media only screen and (max-width:412px){
+  .main_title{
+    height: 20%;
+    font-size: 15%;
+  }
+  .title h1{
+    font-size: 10em;
+  }
+  .title h3{
+    font-size: 5em;
+  }
+
+  .header img{
+      height: 6em;
+      width: 6em;
+  }
+
+  .featured{
+    padding:1rem;
+  }
+
+  .main-image{
+    height:100%;
+    width:40%;
+  }
+
+  .featured-heading{
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .works img{
+    height:60%;
+    width:20%;
+  }
+  .works h4{
+    font-size:1.5em;
+  }
+  .works p{
+    padding-bottom: .5em;
+  }
+
 }

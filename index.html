@@ -10,69 +10,103 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
     <!--css-->
-    <link href="./resources/css/reset.css" type="text/css" rel="stylesheet" />
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
+    <link href="./resources/css/reset.css" rel="stylesheet">
+    <link href="./resources/css/style.css" rel="stylesheet">
+    <link href="./resources/css/fontawesome/css/font-awesome.min.css" rel="stylesheet">
 
   </head>
+
   <body>
 
 
     <!--Header-->
-
-    <div class="header">
-        <div class="image">
-          <img src="./resources/images/touch-icon.png"/>
-        </div>
-        <div class="title">
-          <h1 align="right">Daniel Lubrin</h1>
-          <h3>Front-End Ninja</h3>
-        </div>
+    <div class="container">
+      <div class="header main_title">
+          <div class="image">
+            <img src="./resources/images/touch-icon.png">
+          </div>
+          <div class="title">
+            <h1>Daniel Lubrin</h1>
+            <h3>Front-End Ninja</h3>
+          </div>
+      </div>
     </div>
+
 
 
 
 
     <!--Big Image-->
-    <div class="row big-image">
-      <div class="col-md-12", align="center">
-        <img class="main-image" src="./resources/images/html.jpg" />
+    <div class="container">
+      <div class="row big-image">
+        <div class="col-md-12", align="center">
+          <img class="main-image" src="./resources/images/html.jpg" alt="html main image placeholder" >
+        </div>
       </div>
     </div>
+
 
 
     <section class="featured">
 
       <!--Featured Work-->
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Featured Work</h2>
+      <div class="container">
+        <div class="header">
+          <h2 class="featured-heading">Featured Work</h2>
         </div>
       </div>
+
 
       <!--Works-->
-      <div class="row works">
-        
-        <div class="col-sm-4">
-          <img src="./resources/images/appify.jpg" class="img-thumbnail img-responsive" alt="appify"/>
-          <h4>Appify</h4>
-          <a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify</a>
-        </div>
+      <div class="container">
+        <div class="row works">
 
-        <div class="col-sm-4">
-          <img src="./resources/images/Sunflower.png" class="img-thumbnail img-responsive" alt="Sunflower"/>
-          <h4>Sunflower</h4>
-          <a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a>
-        </div>
+          <div class="col-sm-4">
+            <img src="./resources/images/appify.jpg" class="img-thumbnail img-responsive" alt="appify">
+            <h4>Appify</h4>
+            <p>
+              <a href="https://github.com/udacity/Appify" target="_blank">https://github.com/udacity/Appify</a>
+            </p>
+          </div>
 
-        <div class = "col-sm-4">
-          <img src="./resources/images/app.png" class="img-thumbnail img-responsive" alt="app"/>
-          <h4>Bokeh</h4>
-          <a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a>
-        </div>
+          <div class="col-sm-4">
+            <img src="./resources/images/Sunflower.png" class="img-thumbnail img-responsive" alt="Sunflower">
+            <h4>Sunflower</h4>
+            <p>
+              <a href="https://github.com/udacity/Sunflower"target="_blank">https://github.com/udacity/Sunflower</a>
+            </p>
+          </div>
 
+          <div class="col-sm-4">
+            <img src="./resources/images/app.png" class="img-thumbnail img-responsive" alt="app">
+            <h4>Bokeh</h4>
+            <p>
+              <a href="https://github.com/udacity/Bokeh" target="_blank">https://github.com/udacity/Bokeh</a>
+            </p>
+          </div>
+
+        </div>
       </div>
 
+
     </section>
+
+    <footer class="page-footer center-on-small-only stylish-color-dark">
+      <!--Social buttons-->
+      <div class="social-section text-center">
+        <ul>
+
+          <li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+          <li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+          <li><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+          <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+          <li><a class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
+
+        </ul>
+      </div>
+      <!--/.Social buttons-->
+
+    </footer>
 
 
 
