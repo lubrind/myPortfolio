@@ -40,7 +40,7 @@ h2{
 
 /* styling for the big image */
 .big-image{
-  padding-top: 2rem;
+  padding-top: 1.5rem;
 }
 .main-image{
   max-width: 100%;
@@ -52,14 +52,18 @@ h2{
   width:60%;
 }
 
+
 .featured{
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 .featured-heading{
   padding-bottom: 2rem;
 }
 
+p{
+  overflow-wrap:break-word;
+}
 .works{
   text-align: center;
 }
@@ -79,8 +83,10 @@ li{
   display: inline;
 }
 
-
+/*setting for mobile device e.g. Nexus 5x*/
 @media only screen and (max-width:412px){
+
+  /*header*/
   .main_title{
     height: 20%;
     font-size: 15%;
@@ -97,6 +103,12 @@ li{
       width: 6em;
   }
 
+  /*big image*/
+  .big-image{
+    padding-top:1rem;
+  }
+
+  /*featured works*/
   .featured{
     padding:1rem;
   }
