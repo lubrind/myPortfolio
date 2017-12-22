@@ -25,6 +25,12 @@ h2{
   display: flex;
   justify-content: space-between;
 
+  padding-right: .938em;
+  padding-left: .938em;
+  padding-top: 1.5em;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 .header img{
   height: 5rem;
@@ -83,6 +89,8 @@ li{
   display: inline;
 }
 
+
+
 /*setting for mobile device e.g. Nexus 5x*/
 @media only screen and (max-width:412px){
 
@@ -106,6 +114,8 @@ li{
   /*big image*/
   .big-image{
     padding-top:1rem;
+    text-align: center;
+
   }
 
   /*featured works*/
@@ -116,6 +126,7 @@ li{
   .main-image{
     height:100%;
     width:40%;
+    align-items: center;
   }
 
   .featured-heading{
